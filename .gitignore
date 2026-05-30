@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local datasets and tester feedback are not published.
+data/
+feedback/
+
+# Keep the deployable main checkpoint, ignore large experiment artifacts.
+model/*
+!model/best_resnet18_faces.pth
+!model/training_metrics.json
+
+# Keep product screenshots, skip face-heavy audit artifacts.
+reports/data_quality/
+
+# Local caches and scratch outputs.
+feature/
+*.log
