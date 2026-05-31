@@ -2,3 +2,5 @@ torch
 torchvision
 scikit-learn
 pillow
+matplotlib
+notebook
