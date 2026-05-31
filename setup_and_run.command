@@ -10,4 +10,4 @@ fi
 source .venv/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
-python3 code/desktop_app.py
+python3 -m notebook Face_Classify_Studio.ipynb

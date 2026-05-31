@@ -1,3 +1,3 @@
 #!/bin/zsh
 cd "$(dirname "$0")"
-python3 code/desktop_app.py
+python3 -m notebook code/desktop_app.ipynb
